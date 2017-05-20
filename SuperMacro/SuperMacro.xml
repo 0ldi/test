@@ -2132,12 +2132,12 @@ ScrollFrameTemplate_OnMouseWheel(arg1);
 -->
 	<Button name="GameMenuButtonSuperMacro" inherits="GameMenuButtonTemplate" text="SUPERMACRO_BUTTON" parent="GameMenuFrame">
 		<Size>
-			<AbsDimension x="25" y="190"/>
+			<AbsDimension x="20" y="115"/>
 		</Size>
 		<Anchors>
 			<Anchor point="TOPLEFT" relativeTo="GameMenuButtonOptions" relativePoint="TOPRIGHT">
 				<Offset>
-					<AbsDimension x="0" y="0"/>
+					<AbsDimension x="-4" y="-40"/>
 				</Offset>
 			</Anchor>
 		</Anchors>
